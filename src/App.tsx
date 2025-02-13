@@ -13,6 +13,7 @@ const App: React.FC = () => {
 
 
   return (
+
     <div className="min-h-screen bg-[#0f0f0f] text-white">
       {/* Header with menu toggle */}
       <Header setIsMenuOpen={setIsMenuOpen} />
@@ -37,6 +38,7 @@ const App: React.FC = () => {
           )}
         </main>
       </div>
+
 
           
       {/* Shorts Player - Display when a short is selected */}
