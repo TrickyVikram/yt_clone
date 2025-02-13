@@ -92,16 +92,16 @@ const VideoPlayer: React.FC<VideoPlayProps> = ({ activeVideo, setActiveVideo, vi
       </div>
       <div className="mt-4">
         <div className="flex items-start space-x-3">
-          <img src="/images/profile.jpg" alt="User" className="w-8 h-8 rounded-full" />
+          <img src="https://avatars.githubusercontent.com/u/114013697?v=4" alt="User" className="w-8 h-8 rounded-full" />
           <div>
-            <p className="text-white font-semibold">John Doe</p>
+            <p className="text-white font-semibold">Vikram kumar</p>
             <p className="text-gray-400 text-sm">This is amazing! 🔥🔥</p>
           </div>
         </div>
         <div className="flex items-start space-x-3 mt-2">
-          <img src="/images/profile.jpg" alt="User" className="w-8 h-8 rounded-full" />
+          <img src="https://avatars.githubusercontent.com/u/114013697?v=4" alt="User" className="w-8 h-8 rounded-full" />
           <div>
-            <p className="text-white font-semibold">Jane Smith</p>
+            <p className="text-white font-semibold">Vikram kumar</p>
             <p className="text-gray-400 text-sm">Loved this video, keep up the great work!</p>
           </div>
         </div>

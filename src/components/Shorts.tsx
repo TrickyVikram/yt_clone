@@ -66,6 +66,9 @@ const Shorts: React.FC<{ setActiveShort: (short: any) => void }> = ({ setActiveS
         <p className="text-xs text-gray-400">{short.views} views</p>
       </div>
     ))}
+     <br />
+              <br />
+              <br />
   </div>
 );
 

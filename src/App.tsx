@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Shorts from "./components/Shorts";
@@ -31,9 +31,7 @@ const App: React.FC = () => {
             <>
               <VideoList />
               <Shorts setActiveShort={setActiveShort} />
-              <br />
-              <br />
-              <br />
+             
             </>
           )}
         </main>
